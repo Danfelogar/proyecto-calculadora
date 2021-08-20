@@ -1,0 +1,73 @@
+:root {
+    --Dark_blue: #2364aa;
+    --Light_blue: #3da5d9;
+    --Light_Green: #73bfb8;
+    --Yellow: #fec601;
+    --Orange: #ea7317;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    Font-size: 2rem;
+    background-color: var(--Light_Green);
+}
+.outdoor_calculator{
+    background-color: var(--Yellow);
+    width: 40rem;
+    height: 70rem;
+    margin: 30rem auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0.4rem 0.4rem 5rem 0.5rem var(--Orange);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.screen_cal{
+    width: 100%;
+    height: 8rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--Light_blue);
+    opacity: 0.87;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+}
+.all_buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.button_cal{
+    font-size: large;
+    font-weight: 700;
+    width: 18.87%;
+    height: 7rem;
+    border: none;
+    border-radius: 0.6rem;
+    background-color: var(--Dark_blue);
+    padding: 1rem;
+    margin: 0.4rem auto;
+}
+.button_cal:focus {
+    box-shadow: 3px 3px 5px papayawhip;
+}
+.cal_zero, .cal_equal {
+    width: 14.1rem;
+}
+.cal_zero{
+    background-color:var(--Orange) ;
+    color: #e5e5e5;
+}
+.cal_equal{
+    background-color:#3d405b ;
+    color: #bde0fe;
+}
